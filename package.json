@@ -1,0 +1,35 @@
+{
+  "name": "omp-session-phase",
+  "version": "1.0.0",
+  "description": "OMP extension: a session_phase tool that names the session after its phase, ticket and subject, mirrored onto Herdr.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrebrait/omp-session-phase.git"
+  },
+  "keywords": [
+    "pi-package",
+    "omp",
+    "oh-my-pi",
+    "omp-extension"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "omp": {
+    "extensions": [
+      "./src/session-phase.ts"
+    ]
+  },
+  "pi": {
+    "extensions": [
+      "./src/session-phase.ts"
+    ]
+  },
+  "scripts": {
+    "test": "bun test"
+  }
+}
